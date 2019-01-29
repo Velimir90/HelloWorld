@@ -14,8 +14,8 @@ public class Car {
     public void printVariables() {
         System.out.println("Maksimalna brzina: " + maxSpeed);
         System.out.println("Tezina: " + weight);
-        System.out.println(isTheCarOn);
-        System.out.println(model);
+        System.out.println("Da li je auto ukljucen: " + isTheCarOn);
+        System.out.println("Model: " + model);
         System.out.println(maxFuel);
         System.out.println(currentFuel);
         System.out.println(consumption);
